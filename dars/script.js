@@ -372,3 +372,59 @@
 //   console.log((product.fruitPrice*product.FruitKg).toFixed(2) );
 
 // })
+
+const teachers = [
+  {
+    ism: "Dilafruz Ahmedova",
+    fan: "Matematika",
+    baholar: [5, 4, 5, 5],
+  },
+  {
+    ism: "Javlonbek Karimov",
+    fan: "Fizika",
+    baholar: [4, 4, 5, 4],
+  },
+  {
+    ism: "Gulbahor Ismoilova",
+    fan: "Ingliz tili",
+    baholar: [5, 5, 4, 5],
+  },
+  {
+    ism: "Sardorbek To‘xtayev",
+    fan: "Tarix",
+    baholar: [4, 3, 4, 4],
+  },
+  {
+    ism: "Malika Qodirova",
+    fan: "Kimyo",
+    baholar: [5, 5, 5, 5],
+  },
+  {
+    ism: "Bekzod Ergashev",
+    fan: "Biologiya",
+    baholar: [3, 4, 4, 5],
+  },
+  {
+    ism: "Nilufar Yusupova",
+    fan: "Adabiyot",
+    baholar: [5, 5, 4, 5],
+  },
+  {
+    ism: "Rustam Abdurahmonov",
+    fan: "Informatika",
+    baholar: [5, 4, 5, 4],
+  },
+];
+
+teachers.forEach((teacher) => {
+  const ball = teacher.baholar;
+  const totalBall = ball.reduce((acc, val) => acc + val, 0);
+  const ortacha = Math.trunc(totalBall / ball.length);
+
+  // obyektga yangi xususiyat sifatida o'rtacha ballni qo'shamiz
+  teacher.ortachaBall = ortacha;
+
+  console.log(`${teacher.ism} ning o'rtacha yig'indisi ${ortacha}`);
+});
+
+// console.log(teachers);
