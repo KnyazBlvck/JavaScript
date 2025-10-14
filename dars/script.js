@@ -63,3 +63,97 @@
 //     console.log(`The ${bird.textContent} is endangered`);
 //   }
 // }
+
+
+
+// --------------------- prepend()
+
+// let div = document.createElement("div");
+// let p = document.createElement("p");
+// let span = document.createElement("span");
+// div.append(p);
+// div.prepend(span);
+
+// console.log(div.childNodes); // NodeList [ <span>, <p> ]
+
+// --------------------------- requestFullScreen()
+
+// const video = document.querySelector("video");
+
+// document.addEventListener("keydown", (event) => {
+//   // Note that "F" is case-sensitive (uppercase):
+//   if (event.key === "Enter" || event.key === "F") {
+//     // Check if we're in fullscreen mode
+//     if (document.fullscreenElement) {
+//       document.exitFullscreen();
+//       return;
+//     }
+//     // Otherwise enter fullscreen mode
+//     video.requestFullscreen().catch((err) => {
+//       console.error(`Error enabling fullscreen: ${err.message}`);
+//     });
+//   }
+// });
+// ----------------------- replaceData()
+// const span = document.querySelector("span");
+// const textNode = span.nextSibling;
+
+// textNode.replaceData(2, 4, "replace");
+
+// ------------------------- value
+// const element = document.querySelector("label");
+// const button = document.querySelector("button");
+// const result = document.querySelector("#result");
+
+// const attribute = element.attributes[0];
+// result.value = attribute.value;
+
+// button.addEventListener("click", () => {
+//   attribute.value = "a new value";
+//   result.value = attribute.value;
+// });
+
+
+
+// const data = [
+//   { id: 1, name: "Telefon", price: 350, inStock: true },
+//   { id: 2, name: "Noutbuk", price: 1200, inStock: true },
+//   { id: 3, name: "Planshet", price: 600, inStock: false },
+//   { id: 4, name: "Monitor", price: 450, inStock: true },
+//   { id: 5, name: "Klaviatura", price: 50, inStock: true },
+//   { id: 6, name: "Sichqoncha", price: 25, inStock: false },
+//   { id: 7, name: "Printer", price: 300, inStock: true },
+//   { id: 8, name: "Kamera", price: 800, inStock: true },
+//   { id: 9, name: "Quloqchin", price: 70, inStock: false },
+//   { id: 10, name: "Smart Watch", price: 200, inStock: true },
+//   { id: 11, name: "Televizor", price: 1500, inStock: true },
+//   { id: 12, name: "Router", price: 90, inStock: true },
+//   { id: 13, name: "Proyektor", price: 1000, inStock: false },
+//   { id: 14, name: "Konditsioner", price: 2000, inStock: true },
+//   { id: 15, name: "Gaming Chair", price: 400, inStock: true },
+// ];
+
+// const Container = document.querySelector("#div");
+// let html = "";
+// data.map((sad, i) => {
+//   html += `
+// <div>
+// <h2>${sad.name}</h2>
+// <p>${sad.price}</p>
+// </div>
+//   `;
+// });
+// Container.innerHTML = html;
+
+// const objData = [
+//   "Salom hammaga",
+//   2025,
+//   true,
+//   { id: 1, name: "Telefon", price: 350 },
+//   { id: 2, name: "Noutbuk", price: 1200 },
+//   "JavaScript oson!",
+//   { id: 3, name: "Planshet", price: 600 },
+//   false,
+//   { id: 4, name: "Monitor", price: 450 },
+//   99,
+// ];
