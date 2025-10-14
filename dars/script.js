@@ -220,3 +220,96 @@
 // console.log("somithing");
 // let num = 123
 // let bool=true
+
+
+// console.log(typeof String(num));
+// console.log(typeof String(bool));
+// console.log(typeof num.toString());
+// console.log(typeof bool.toString());
+
+// let userInfo = parseInt(prompt("hafta kunini kiriting"))
+
+// switch (userInfo) {
+//   case 1:
+//     alert("dushanba");
+//     break;
+//   case 2:
+//     alert("seshanba");
+//     break;
+//   case 3:
+//     alert("chorshanba");
+//     break;
+//   case 4:
+//     alert("payshanba");
+//     break;
+//   case 5:
+//     alert("juma");
+//     break;
+//   case 6:
+//     alert("shanba");
+//     break;
+//   case 7:
+//     alert("yakshanba");
+//     break;
+
+//   default:
+//     break;
+// }
+
+// funcsion()
+// function expression
+// const Hello = () => {};
+// function hellos() {}
+// const greet = function () {};
+
+// const expenseTracker = {
+//   balance: 0,
+//   expenses: [],
+
+//   addExpense(description, amount) {
+//     const expense = {
+//       id: crypto.randomUUID(),
+//       description,
+//       amount,
+//       date: new Date().toLocaleTimeString(),
+//     };
+
+//     this.expenses.push(expense);
+//     this.balance -= amount;
+//     console.log(`${description} uchun ${amount} so'm qo'shildi`);
+//   },
+
+//   showExpenses() {
+//     console.log("Xarajatlar ro'yxati:");
+
+//     for (const expense of this.expenses) {
+//       console.log(
+//         `${expense.id}: ${expense.description} - ${expense.amount} so'm | vaqt: ${expense.date}`
+//       );
+//     }
+//   },
+
+//   getTotalExpenses() {
+//     let total = 0;
+//     for (const el of this.expenses) {
+//       total += el.amount;
+//     }
+//     console.log(`\nUmumiy xarajatingiz: ${total} so'm`);
+//     console.log(`Sizning joriy balansingiz: ${this.balance} so'm`);
+//   },
+
+//   getBeggestExpense() {
+//     if (this.expenses.length === 0) return console.log("Xarajatlar yo‘q.");
+
+//     let maxExpense = this.expenses[0];
+//     for (const el of this.expenses) {
+//       if (el.amount > maxExpense.amount) {
+//         maxExpense = el;
+//       }
+//     }
+
+//     console.log(
+//       `Eng katta xarajat: ${maxExpense.description} - ${maxExpense.amount} so'm`
+//     );
+//   },
+// };
