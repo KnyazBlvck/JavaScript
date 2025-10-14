@@ -157,3 +157,66 @@
 //   { id: 4, name: "Monitor", price: 450 },
 //   99,
 // ];
+
+// const ContainerDiv = document.querySelector("#container");
+
+// let datalar = "";
+// objData.map((item) => {
+//   if (typeof item === "object" && item !== null) {
+//     datalar += `
+//       <div>
+//         <h2>${item.name}</h2>
+//         <p>Narxi: ${item.price} $</p>
+//       </div>
+//     `;
+//   } else {
+//     datalar += `<p>${item}</p>`;
+//   }
+// });
+
+// ContainerDiv.innerHTML = datalar;
+
+// const yosh =prompt("Yoshingizni kiriting")
+
+// if(yosh >= 18){
+//   console.log("Sizga bunaqa kinolar kurish mumkin");
+
+// }else{
+//   console.log("Siz hali yoshbolasiz iltimos multifilm kuring");
+
+// }
+
+// const bola=19
+
+// const xabar=bola>=18 ? "kirish mumkin" : "kirish mumkin emas"
+
+// console.log(xabar);
+
+// if(Infinity){
+//   console.log(true);
+
+// }else{
+//   console.log(false);
+
+// }
+
+// let email="Guest@gmail.com"
+// let parol = "123456789"
+
+// let  EmailPrompt=prompt("Iltimos saytga kirish uchun mavjud profilengizni kiriting")
+
+// let passwordPrompt=prompt("iltimos parolingizni tasdiqlang")
+
+// if(email === EmailPrompt && parol===passwordPrompt ){
+//   alert("xush kelibsiz")
+// }else{
+//   alert("Oooops! nimadur xato ketdi qayta urining")
+// }
+
+// console.log(5 === "5");
+// console.log(true == 1);
+// console.log(true || false);
+
+// console.log("somithing");
+// let num = 123
+// let bool=true
