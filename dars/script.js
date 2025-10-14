@@ -313,3 +313,62 @@
 //     );
 //   },
 // };
+
+// expenseTracker.addExpense("Telefon", 25000);
+// expenseTracker.addExpense("Kitob", 15000);
+// expenseTracker.showExpenses();
+// expenseTracker.getTotalExpenses();
+// expenseTracker.getBeggestExpense();
+
+// const arr=[1,2,3,4,5,6,7]
+
+// console.log(arr[2]);
+// const obj = {
+//   name: "Asilbek",
+//   surname: "Suvonov",
+//   age: 17,
+// };
+
+// console.log(obj);
+
+// const fruit = [
+//   {
+//     fruitName: "Olma",
+//     fruitPrice: 120400,
+//     FruitKg: 12543,
+//   },
+//     {
+//     fruitName: "Qulupnay",
+//     fruitPrice: 1432000,
+//     FruitKg: 1542,
+//   },
+//     {
+//     fruitName: "shaftoli",
+//     fruitPrice: 1243000,
+//     FruitKg: 1254,
+//   },
+//     {
+//     fruitName: "uzum",
+//     fruitPrice: 1243000,
+//     FruitKg: 1542,
+//   },
+//     {
+//     fruitName: "Olcha",
+//     fruitPrice: 12000,
+//     FruitKg: 1234,
+//   },
+//     {
+//     fruitName: "Gilos",
+//     fruitPrice: 124000,
+//     FruitKg: 1232,
+//   },  {
+//     fruitName: "Ananas",
+//     fruitPrice: 134000,
+//     FruitKg: 1322,
+//   },
+// ];
+
+// fruit.forEach((product)=>{
+//   console.log((product.fruitPrice*product.FruitKg).toFixed(2) );
+
+// })
