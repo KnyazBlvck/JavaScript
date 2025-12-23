@@ -6,22 +6,21 @@
 //   }, 1000);
 // }
 // 2= masala
-// const twoSum = (arr, targetNum) => {
-//   let arrIndex = [arr[0]];
-//   outhor: for (let i = 0; i < arr.length; i++) {
-//     inner: for (let j = i + 1; j < arr.length; j++) {
-//       if (arr[i] + arr[j] == targetNum) {
-//         arrIndex.push(arr[i]);
-//       }
+// const twoSum = (nums, target) => {
+//   const map = {};
+
+//   for (let i = 0; i < nums.length; i++) {
+//     const needed = target - nums[i];
+
+//     if (needed in map) {
+//       return [map[needed], i];
 //     }
+
+//     map[nums[i]] = i;
 //   }
-
-//   return arrIndex;
 // };
+// console.log(twoSum([2, 7, 11, 15], 9));
 
-// const result = twoSum([2, 7, 11, 15], 9);
-
-// console.log(result);
 
 // 3 = masala
 
